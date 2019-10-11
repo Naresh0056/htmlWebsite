@@ -1,0 +1,23 @@
+@mixin flexboxSpacebtwn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@mixin responsive {
+  @media screen and (max-width: 500px) {
+    .banner {
+      min-height: 300px !important;
+      background-position: center 0px !important;
+      align-items: flex-end;
+      padding-bottom: 40px;
+    }
+    .product-container {
+      margin-top: 15px;
+      grid-template-columns: 99%;
+      grid-gap: 13px;
+    }
+    .news-container .post {
+      width: 100%;
+    }
+  }
+}

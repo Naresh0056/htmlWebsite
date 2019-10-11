@@ -1,0 +1,885 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  box-sizing: border-box;
+  font-family: "HelveticaNeue"; }
+
+#post2 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/feature_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative; }
+
+.post2-text {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  max-width: 376px; }
+
+.post2-text h2 {
+  color: #707070;
+  font-size: 50px;
+  line-height: 55px; }
+
+.post2-text p {
+  line-height: 30px;
+  font-size: 24px; }
+
+#post3 {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  grid-gap: 13px; }
+
+.grid-cell-left {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block1.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 379px;
+  padding: 25% 25px 25px 50%; }
+
+.grid-cell-right {
+  background-image: url(http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block2.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 379px;
+  padding: 50% 25px 25px 35px; }
+
+.widget-title {
+  text-align: left;
+  color: #fff;
+  font-size: 52px;
+  line-height: 55px; }
+
+.textWidget {
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 45px;
+  max-width: 410px; }
+
+.btn {
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding: 15px 55px 9px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  letter-spacing: 1px;
+  color: #fff; }
+
+.btn:hover {
+  background-color: #000000; }
+
+.btn-secondary {
+  background-color: #e7873c; }
+
+.btn-primary {
+  background-color: #00a259; }
+
+.videoSection {
+  display: flex; }
+
+.videoSection-image {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block3.jpg");
+  padding: 0 0 0 692px;
+  background-size: cover;
+  min-height: 430px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 430px;
+  align-items: center; }
+
+.videoSection-text {
+  padding: 13% 0% 0px 25px; }
+
+.videoSection-text p {
+  margin-bottom: 79px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #696969;
+  margin-top: 35px; }
+
+.videoSection-text h3 {
+  color: #707070;
+  font-size: 50px;
+  line-height: 55px; }
+
+.partner {
+  margin-top: 30px; }
+
+.partner h1 {
+  color: #00a158;
+  margin: auto;
+  max-width: 1170px;
+  font-size: 50px; }
+
+.partner-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1218px;
+  margin-top: 36px;
+  flex-wrap: wrap; }
+
+.card {
+  width: 21%; }
+
+.card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e9e9e9; }
+
+.card h2 {
+  font-size: 22px;
+  margin: 5px 0px 15px 0px;
+  color: #5b5b5b;
+  line-height: 25px; }
+
+.tag {
+  position: absolute;
+  cursor: pointer; }
+
+.tip {
+  display: none;
+  background: #000;
+  color: #fff;
+  padding: 20px 25px;
+  font-size: 16px;
+  width: 348px;
+  position: absolute;
+  top: -20px;
+  left: 150px;
+  z-index: 9999; }
+
+.tip::before {
+  content: "";
+  height: 2px;
+  background: #f03d37;
+  position: absolute;
+  top: 38px;
+  left: -112px;
+  z-index: 9999;
+  display: block;
+  width: 113px; }
+
+.tip h3 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0px; }
+
+.tip p {
+  font-size: 14px;
+  color: #fff;
+  margin: 0px;
+  line-height: 22px; }
+
+.tag span {
+  background: #000;
+  color: #fff;
+  border: 2px solid #f03d37;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%; }
+
+.tag.six:hover .tip {
+  display: block; }
+
+.tag.five:hover .tip {
+  display: block; }
+
+.tag.four:hover .tip {
+  display: block; }
+
+.tag.three:hover .tip {
+  display: block; }
+
+.tag.two:hover .tip {
+  display: block; }
+
+.tag.one:hover .tip {
+  display: block; }
+
+.one {
+  top: 12%;
+  left: 44%; }
+
+.two {
+  top: 62%;
+  left: 24%; }
+
+.three {
+  top: 37%;
+  left: 16%; }
+
+.four {
+  top: 59%;
+  left: 42%; }
+
+.five {
+  top: 39%;
+  left: 5%; }
+
+.six {
+  top: 62%;
+  left: 56%; }
+
+.product-container {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 13px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 25px; }
+
+.product-image {
+  margin-bottom: 10px;
+  text-align: center;
+  min-height: 285px; }
+
+.product-image img {
+  width: 100%;
+  height: auto; }
+
+.product-content h3 a {
+  font-size: 22px;
+  margin: 0px 0px 10px 0px;
+  color: #696969 !important; }
+
+.product-content p {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #696969; }
+
+.banner {
+  background: url(http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/inner_banner.jpg);
+  min-height: 395px;
+  display: flex;
+  margin-bottom: 0px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative; }
+
+.banner .container {
+  width: 100%;
+  margin-top: 93px; }
+
+.banner h1 {
+  color: #fff;
+  max-width: 460px;
+  line-height: 60px;
+  font-size: 60px;
+  margin-bottom: 20px; }
+
+.banner p {
+  color: #fff;
+  max-width: 420px;
+  margin: 0px;
+  line-height: 30px;
+  font-size: 24px; }
+
+@media screen and (max-width: 960px) {
+  .product-container {
+    grid-template-columns: 49% 49%;
+    grid-gap: 13px; } }
+
+.news-banner {
+  background: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/58453566_2786173218064433_499157012553440033_n.png"); }
+
+.news1 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news1.jpg"); }
+
+.news2 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news3.jpg"); }
+
+.news3 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news2.jpg"); }
+
+.news4 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news4.jpg"); }
+
+.news-container {
+  display: flex;
+  padding-bottom: 10px;
+  flex-wrap: wrap; }
+
+.news-container .post {
+  width: 49%;
+  background-size: cover;
+  min-height: 977px;
+  position: relative;
+  border: 10px solid #fff;
+  border-bottom: none;
+  border-left: 6px solid #fff;
+  border-right: 6px solid #fff; }
+
+.post .content {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0% 13% 10%;
+  color: #fff; }
+
+.post .content h3 {
+  font-size: 40px;
+  line-height: 45px;
+  max-width: 90%; }
+
+.post .content a {
+  color: #fff; }
+
+.post .content p {
+  line-height: 30px;
+  font-size: 24px;
+  margin-bottom: 48px;
+  margin-top: 10px; }
+
+.post .content .btn {
+  background-color: #e7873c;
+  letter-spacing: 1px;
+  color: #fff; }
+
+.contact-banner {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/58453566_2786173218064433_499157012553440033_n-1.png"); }
+
+.panel {
+  margin: 19px 0px 0px 67px; }
+
+.panel p {
+  color: #696969;
+  font-size: 20px;
+  margin: 19px 0px; }
+
+.panel h3 {
+  font-size: 28px;
+  color: #696969; }
+
+.contact-input {
+  background: none;
+  border: 1px solid #d6d6d6;
+  height: auto;
+  padding: 12px 10px 10px;
+  color: #333;
+  border-radius: 0px;
+  font-size: 16px;
+  width: 33%;
+  margin: 15px 0px; }
+
+.contact-form button {
+  border: none;
+  padding: 14px 35px 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  background-color: #db3832;
+  color: #fff;
+  margin-top: 0px;
+  letter-spacing: 1px; }
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: black;
+  z-index: 999; }
+
+.content {
+  margin-top: 94px; }
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  position: relative; }
+
+.navigation-list li {
+  list-style: none;
+  display: inline-block;
+  position: relative; }
+
+.navigation .icon {
+  display: none;
+  padding: 0px; }
+
+.navigation-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 36px 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 36px 17px; }
+
+.navigation-list li:nth-child(5) {
+  margin: 0px 0px 0px 337px; }
+
+.brand {
+  width: 100%;
+  text-align: center;
+  max-height: 1px; }
+
+@media screen and (max-width: 600px) {
+  .navigation-list {
+    height: 72px; }
+  .navIcon {
+    position: absolute !important;
+    top: -6px;
+    right: 0px; }
+  .navigation-list li a {
+    display: none; }
+  .navigation-list a.icon {
+    float: right;
+    display: block; }
+  .navigation.responsive {
+    position: relative; }
+  .responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 13px 27px; }
+  .navigation-list li {
+    display: block; }
+  .responsive {
+    height: 100%;
+    margin-top: 123px; }
+  .navigation-list li:nth-child(5) {
+    margin: 0px; }
+  .icon i {
+    color: white;
+    background-color: black; }
+  .brand {
+    margin-top: 15px;
+    text-align: left; }
+  .brand img {
+    width: 100px;
+    height: 117px; } }
+
+.gives-main {
+  width: 100%;
+  background: #000;
+  padding: 35px 0px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px; }
+
+.gives-main .gives-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff; }
+
+.gives_main .gives-inner .gives-head {
+  width: 49%; }
+
+.gives-title {
+  font-size: 50px;
+  color: #e7873c;
+  margin-bottom: 42px; }
+
+.textWidget h4 {
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 25px; }
+
+.textWidget p {
+  line-height: 30px;
+  font-size: 24px; }
+
+.gives-content {
+  width: 49%;
+  padding: 90px 0px 0px 0px; }
+
+.gives-content li {
+  line-height: 34px;
+  font-size: 22px; }
+
+.gives-image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 25px 0px 0px; }
+
+.img-block {
+  width: 16%;
+  text-align: center; }
+
+.img-block img {
+  max-width: 100%; }
+
+.footer {
+  background: #000;
+  color: #fff; }
+
+.footer .container {
+  padding: 37px 50px 0px; }
+
+.col h2 {
+  color: #fff;
+  max-width: 160px;
+  font-size: 26px;
+  min-height: 95px;
+  position: relative; }
+
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.footer-signup h2 {
+  color: #fff;
+  max-width: 80%;
+  font-size: 26px;
+  min-height: 95px; }
+
+.col li {
+  list-style: none;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  cursor: pointer; }
+
+.col h2::after {
+  content: "";
+  height: 1px;
+  width: 35px;
+  background: #fff;
+  display: block;
+  margin: 15px 0px;
+  position: absolute;
+  bottom: 0px; }
+
+.signup input {
+  width: 94%;
+  height: 39px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding-left: 10px; }
+
+.signup h2 {
+  max-width: 97%; }
+
+.signupbtn {
+  cursor: pointer;
+  border: none;
+  padding: 14px 35px 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  background-color: #db3832;
+  color: #fff;
+  margin-top: 20px;
+  letter-spacing: 1px; }
+
+.signupbtn:hover {
+  background-color: #df1710; }
+
+.footer-bottom {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1.6fr) 2fr;
+  position: relative; }
+
+.footer-bottom p {
+  font-size: 14px; }
+
+.footer-bottom::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  bottom: 100px;
+  color: white;
+  border-bottom: 1px solid white; }
+
+.fa {
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 50% 50%;
+  margin: 9px 6px 0 0;
+  background: white;
+  color: red;
+  width: 15px;
+  text-align: center; }
+
+@media screen and (max-width: 500px) {
+  /* footer section  */
+  .footer-link {
+    flex-direction: column; }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; }
+  .footer-bottom .bottom-col {
+    padding: 11px 0; }
+  .footer-bottom::before {
+    top: -18px; }
+  .col {
+    width: 100%; } }
+
+.guarantee-main {
+  background-color: #eeeef0;
+  padding: 50px 0px 25px;
+  margin-bottom: 10px; }
+
+.guarantee-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.guarantee-block {
+  width: 33%;
+  text-align: center; }
+
+.guarantee-main .thumb {
+  margin-bottom: 30px; }
+
+.guarantee-main .text p {
+  font-size: 22px;
+  color: #000;
+  margin: 0px; }
+
+@media screen and (max-width: 500px) {
+  .guarantee-inner {
+    flex-direction: column; }
+  .guarantee-block {
+    width: 100%;
+    padding-top: 26px; } }
+
+/************************ page-content */
+#post2 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/feature_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative; }
+
+.post2-text {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  max-width: 376px; }
+
+.post2-text h2 {
+  color: #707070;
+  font-size: 50px;
+  line-height: 55px; }
+
+.post2-text p {
+  line-height: 30px;
+  font-size: 24px; }
+
+#post3 {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  grid-gap: 13px; }
+
+.grid-cell-left {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block1.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 379px;
+  padding: 25% 25px 25px 50%; }
+
+.grid-cell-right {
+  background-image: url(http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block2.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 379px;
+  padding: 50% 25px 25px 35px; }
+
+.widget-title {
+  text-align: left;
+  color: #fff;
+  font-size: 52px;
+  line-height: 55px; }
+
+.textWidget {
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 45px;
+  max-width: 410px; }
+
+.btn {
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding: 15px 55px 9px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  letter-spacing: 1px;
+  color: #fff; }
+
+.btn:hover {
+  background-color: #000000; }
+
+.btn-secondary {
+  background-color: #e7873c; }
+
+.btn-primary {
+  background-color: #00a259; }
+
+.videoSection {
+  display: flex; }
+
+.videoSection-image {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/block3.jpg");
+  padding: 0 0 0 692px;
+  background-size: cover;
+  min-height: 430px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 430px;
+  align-items: center; }
+
+.videoSection-text {
+  padding: 13% 0% 0px 25px; }
+
+.videoSection-text p {
+  margin-bottom: 79px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #696969;
+  margin-top: 35px; }
+
+.videoSection-text h3 {
+  color: #707070;
+  font-size: 50px;
+  line-height: 55px; }
+
+/* partner */
+/**************** Gives section */
+/********************** guarantee section */
+/************************ footer Section  */
+.img1 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/Video-hero-image-01.png"); }
+
+.img2 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/Video-hero-image-01-1.png"); }
+
+.img3 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/Video-hero-image-01-1.png"); }
+
+.img4 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/Video-hero-image-01.png"); }
+
+.fade .img {
+  width: 100%;
+  height: calc(100vh - 0px);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex !important;
+  -webkit-align-content: center;
+  align-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 0px 0%;
+  max-height: 933px; }
+
+.dot {
+  margin: 0 12px 0 0;
+  width: 13px;
+  padding: 0px;
+  font-size: 0;
+  height: 13px;
+  border-radius: 0px;
+  background: white;
+  cursor: pointer;
+  display: inline-block;
+  text-indent: -9999999px; }
+
+.dot-container {
+  position: absolute;
+  top: 102%;
+  left: 7%; }
+
+.active,
+.dot:hover {
+  background-color: #e7873c; }
+
+/************* oldser slide */
+.caption {
+  position: absolute;
+  top: 50%;
+  max-width: 644px;
+  color: #fff;
+  left: 7%; }
+
+.caption a {
+  background: #e7873c; }
+
+.caption h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px; }
+
+.caption p {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 35px 0px; }
+
+@media screen and (max-width: 500px) {
+  .tagTextWidget {
+    display: none; }
+  .grid-cell-left {
+    padding: 25% 25px 25px; }
+  #post3 {
+    grid-template-columns: none; }
+  .card {
+    width: 100%;
+    padding: 10px 16px; }
+  .partner h1 {
+    font-size: 35px;
+    padding-left: 20px; }
+  /* *********gives-image */
+  .gives-content {
+    width: 100%;
+    padding: 32px 0px 0px 38px; }
+  .img-block {
+    width: 41%;
+    padding: 20px 14px; }
+  /* ***********guarantee Section */
+  .guarantee-inner {
+    flex-direction: column; }
+  .guarantee-block {
+    width: 100%;
+    padding-top: 26px; }
+  /* .videoSection */
+  .videoSection-image {
+    padding: 0 0 0 0;
+    min-height: 516px;
+    background-size: auto 442px; }
+  .videoSection-text {
+    padding: 32% 0% 0px 65px; }
+  .videoSection-text h3 {
+    font-size: 35px;
+    line-height: 37px;
+    color: white; } }
+
+/**************** Shop page css */
+/******************** end of shopping page */
+/************** news page */
+/************** contact page */
+/* //resposive for shop and news */

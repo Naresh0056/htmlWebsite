@@ -1,0 +1,31 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+.guarantee-main {
+  background-color: #eeeef0;
+  padding: 50px 0px 25px;
+  margin-bottom: 10px;
+}
+.guarantee-inner {
+  @include flexboxSpacebtwn;
+}
+.guarantee-block {
+  width: 33%;
+  text-align: center;
+}
+.guarantee-main .thumb {
+  margin-bottom: 30px;
+}
+.guarantee-main .text p {
+  font-size: 22px;
+  color: #000;
+  margin: 0px;
+}
+@media screen and (max-width: 500px) {
+  .guarantee-inner {
+    flex-direction: column;
+  }
+  .guarantee-block {
+    width: 100%;
+    padding-top: 26px;
+  }
+}

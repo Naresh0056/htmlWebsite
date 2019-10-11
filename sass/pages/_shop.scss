@@ -1,0 +1,63 @@
+@import "../abstracts/mixins";
+
+.product-container {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 13px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 25px;
+}
+.product-image {
+  margin-bottom: 10px;
+  text-align: center;
+  min-height: 285px;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+.product-content h3 a {
+  font-size: 22px;
+  margin: 0px 0px 10px 0px;
+  color: #696969 !important;
+}
+.product-content p {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #696969;
+}
+.banner {
+  background: url(http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/inner_banner.jpg);
+  min-height: 395px;
+  display: flex;
+  margin-bottom: 0px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative;
+}
+.banner .container {
+  width: 100%;
+  margin-top: 93px;
+}
+.banner h1 {
+  color: #fff;
+  max-width: 460px;
+  line-height: 60px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.banner p {
+  color: #fff;
+  max-width: 420px;
+  margin: 0px;
+  line-height: 30px;
+  font-size: 24px;
+}
+@media screen and (max-width: 960px) {
+  .product-container {
+    grid-template-columns: 49% 49%;
+    grid-gap: 13px;
+  }
+}
+// @include reponsive;

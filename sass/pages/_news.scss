@@ -1,0 +1,60 @@
+@import "../abstracts/mixins";
+
+.news-banner {
+  background: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/58453566_2786173218064433_499157012553440033_n.png");
+}
+.news1 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news1.jpg");
+}
+.news2 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news3.jpg");
+}
+.news3 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news2.jpg");
+}
+.news4 {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/08/news4.jpg");
+}
+.news-container {
+  display: flex;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.news-container .post {
+  width: 49%;
+  background-size: cover;
+  min-height: 977px;
+  position: relative;
+  border: 10px solid #fff;
+  border-bottom: none;
+  border-left: 6px solid #fff;
+  border-right: 6px solid #fff;
+}
+.post .content {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0% 13% 10%;
+  color: #fff;
+}
+
+.post .content h3 {
+  font-size: 40px;
+  line-height: 45px;
+  max-width: 90%;
+}
+.post .content a {
+  color: #fff;
+}
+.post .content p {
+  line-height: 30px;
+  font-size: 24px;
+  margin-bottom: 48px;
+  margin-top: 10px;
+}
+.post .content .btn {
+  background-color: #e7873c;
+  letter-spacing: 1px;
+  color: #fff;
+}
+// @include responsive;

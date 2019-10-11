@@ -1,0 +1,56 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.gives-main {
+  width: 100%;
+  background: #000;
+  padding: 35px 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.gives-main .gives-inner {
+  @include flexboxSpacebtwn;
+  color: $color-white;
+}
+.gives_main .gives-inner .gives-head {
+  width: 49%;
+}
+.gives-title {
+  font-size: 50px;
+  color: $color-primary-btn;
+  margin-bottom: 42px;
+}
+.textWidget h4 {
+  color: $color-white;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+.textWidget p {
+  line-height: 30px;
+  font-size: 24px;
+}
+.gives-content {
+  width: 49%;
+  padding: 90px 0px 0px 0px;
+}
+.gives-content li {
+  line-height: 34px;
+  font-size: 22px;
+}
+.gives-image {
+  @include flexboxSpacebtwn;
+  width: 100%;
+  margin: 25px 0px 0px;
+}
+.img-block {
+  width: 16%;
+  text-align: center;
+}
+.img-block img {
+  max-width: 100%;
+}

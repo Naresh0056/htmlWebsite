@@ -1,0 +1,40 @@
+@import "../abstracts/mixins";
+
+.contact-banner {
+  background-image: url("http://virtualtest.co.in/gtech/wp-content/uploads/2019/09/58453566_2786173218064433_499157012553440033_n-1.png");
+}
+.panel {
+  margin: 19px 0px 0px 67px;
+}
+.panel p {
+  color: #696969;
+  font-size: 20px;
+  margin: 19px 0px;
+}
+.panel h3 {
+  font-size: 28px;
+  color: #696969;
+}
+.contact-input {
+  background: none;
+  border: 1px solid #d6d6d6;
+  height: auto;
+  padding: 12px 10px 10px;
+  color: #333;
+  border-radius: 0px;
+  font-size: 16px;
+  width: 33%;
+  margin: 15px 0px;
+}
+.contact-form button {
+  border: none;
+  padding: 14px 35px 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: none;
+  background-color: #db3832;
+  color: #fff;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+// @include responsive;

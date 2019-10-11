@@ -1,0 +1,94 @@
+@import "../abstracts/variables";
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: $color-btn-hover;
+  z-index: 999;
+}
+.content {
+  margin-top: 94px;
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.navigation-list li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.navigation .icon {
+  display: none;
+  padding: 0px;
+}
+
+.navigation-list li a {
+  text-decoration: none;
+  color: $color-white;
+  font-size: 18px;
+  display: block;
+  padding: 36px 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 36px 17px;
+}
+.navigation-list li:nth-child(5) {
+  margin: 0px 0px 0px 337px;
+}
+.brand {
+  width: 100%;
+  text-align: center;
+  max-height: 1px;
+}
+@media screen and (max-width: 600px) {
+  .navigation-list {
+    height: 72px;
+  }
+  .navIcon {
+    position: absolute !important;
+    top: -6px;
+    right: 0px;
+  }
+  .navigation-list li a {
+    display: none;
+  }
+  .navigation-list a.icon {
+    float: right;
+    display: block;
+  }
+  .navigation.responsive {
+    position: relative;
+  }
+  .responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 13px 27px;
+  }
+  .navigation-list li {
+    display: block;
+  }
+  .responsive {
+    height: 100%;
+    margin-top: 123px;
+  }
+  .navigation-list li:nth-child(5) {
+    margin: 0px;
+  }
+  .icon i {
+    color: white;
+    background-color: black;
+  }
+  .brand {
+    margin-top: 15px;
+    text-align: left;
+  }
+  .brand img {
+    width: 100px;
+    height: 117px;
+  }
+}
